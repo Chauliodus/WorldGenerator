@@ -1,0 +1,24 @@
+#ifndef LANDMARKLABEL_H
+#define LANDMARKLABEL_H
+
+#include <QObject>
+#include <QWidget>
+#include <QLabel>
+#include <QDebug>
+#include <qgraphicsitem.h>
+
+#include <Model/landmark.h>
+
+class Landmarklabel : public QGraphicsItem
+{
+public:
+    Landmarklabel(Landmark *);
+    QPixmap pic;
+    bool hovered;
+public slots:
+    void hoverEnterEvent(QGraphicsSceneHoverEvent *event);
+    void hoverLeaveEvent(QGraphicsSceneHoverEvent *event);
+    
+};
+
+#endif // LANDMARKLABEL_H

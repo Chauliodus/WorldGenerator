@@ -1,0 +1,28 @@
+#include "landmarklabel.h"
+
+Landmarklabel::Landmarklabel(Landmark *)
+{
+    pic.load("../res/buildings/living_preview.png");
+    setAcceptHoverEvents(true);
+        
+    setPixmap(pic);
+    setAttribute(Qt::WA_Hover, true);
+}
+
+void Landmarklabel::hoverEnterEvent(QGraphicsSceneHoverEvent *event)
+{
+    if (!hovered) {
+        hovered = true;
+        pic.load("../res/buildings/living_preview_hovered.png");
+        setPixmap(pic);
+    }
+}
+
+void Landmarklabel::hoverLeaveEvent(QGraphicsSceneHoverEvent *event)
+{
+    if (hovered){
+        hovered = false;
+        pic.load("../res/buildings/living_preview.png");
+        setPixmap(pic);
+    }    
+}
