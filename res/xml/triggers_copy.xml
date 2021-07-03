@@ -1,0 +1,103 @@
+<MainTag>
+	
+<description>Test Description</description>
+
+<type>3</type>
+
+<source>
+    <description>Source test Description1</description>
+    <type>4</type>
+</source>
+
+<source>
+    <description>Source test Description2</description>
+    <type>5</type>
+    <name>
+        <element>1</element>
+    </name>
+</source>
+
+</MainTag>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<values>
+	<might id=0 name="СИЛА">
+		<trigger id=100 name="высокий"/>
+		<trigger id=101 name="мускулы"/>
+		<trigger id=102 name="оружие"/>
+		<trigger id=103 name="боевые искусства"/>
+		<trigger id=104 name="воины в отряде"/>
+	</might> 
+
+	<richness id=1 name="БОГАТСТВО">
+		<trigger id=100 name="богатство"/>
+		<trigger id=101 name="драгоценности"/>
+		<trigger id=102 name="авто"/>
+	</richness> 
+
+	<genus id=2 name="РОД">
+		<trigger id=100 name="документы"/>
+		<trigger id=101 name="символ веры"/>
+		<trigger id=102 name="герб"/>
+		<trigger id=103 name="гимн"/>
+		<trigger id=104 name="цветовая символика"/>
+		<trigger id=105 name="традиционная одежда"/>
+		<trigger id=106 name="диалект"/>
+	</genus> 
+
+	<might id=3 name="БЕЗОПАСНОСТЬ">
+		<trigger id=100 name="отсутствие страданий в отряде"/>
+		<trigger id=101 name="запах еды"/>
+		<trigger id=102 name="транспорт"/>
+		<trigger id=103 name="лечение"/>
+		<trigger id=104 name="помощь"/>
+		<trigger id=105 name="воины в отряде"/>
+		<trigger id=106 name="компромиссы"/>
+	</might> 
+	   
+	<freedom id=4 name="СВОБОДА">
+		<trigger id=100 name="отсутствие рабов в отряде"/>
+		<trigger id=101 name="животные в отряде"/>
+		<trigger id=102 name="женщины в отряде"/>
+		<trigger id=103 name="не рубка деревьев"/>
+		<trigger id=104 name="отсутствие страданий в отряде"/>
+	</freedom> 
+	 
+	<mind id=5 name="УМ">
+		<trigger id=100 name="умный взгляд"/>
+		<trigger id=101 name="очки"/>
+		<trigger id=102 name="аугментации"/>
+		<trigger id=103 name="светящиеся трубки"/>
+		<trigger id=104 name="компьютер"/>
+		<trigger id=105 name="диплом университета"/>
+	</mind> 
+	  
+	<mystery id=6 name="ТАИНСТВА">
+		<trigger id=100 name="мистический взгляд"/>
+		<trigger id=101 name="много цвета"/>
+		<trigger id=102 name="напитан магией"/>
+		<trigger id=103 name="амулеты"/>
+		<trigger id=104 name="таинственные существа в отряде"/>
+	</mystery> 
+		
+	<desire id=7 name="СТРАСТЬ">
+		<trigger id=100 name="модная одежда"/>
+		<trigger id=101 name="страдающие люди в отряде"/>
+		<trigger id=102 name="юниты с фатальным отношением в отряде"/>
+		<trigger id=103 name="красота"/>
+		<trigger id=104 name="драгоценности"/>
+	</desire> 
+
+	<power id=8 name="ВЛАСТЬ">
+		<trigger id=100 name="волевой взгляд"/>
+		<trigger id=101 name="страшная одежда"/>
+		<trigger id=102 name="рабы в отряде"/>
+		<trigger id=103 name="страдающие люди в отряде"/>
+		<trigger id=104 name="орудия пыток"/>
+		<trigger id=105 name="демонстративное насилие"/>
+	</power> 
+</values>

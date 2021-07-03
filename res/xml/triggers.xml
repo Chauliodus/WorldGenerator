@@ -1,0 +1,97 @@
+<values>
+	
+<might>
+	<name>СИЛА</name>
+	<id>001</id>
+	<trigger>высокий</trigger>
+	<trigger>мускулы</trigger>
+	<trigger>оружие</trigger>
+	<trigger>боевые искусства</trigger>
+	<trigger>воины в отряде</trigger>
+</might>
+
+<richness>
+	<name>БОГАТСТВО</name>
+	<id>002</id>
+	<trigger>богатство</trigger>
+	<trigger>драгоценности</trigger>
+	<trigger>авто</trigger>
+</richness>
+
+<genus>
+	<name>РОД</name>
+	<id>003</id>
+	<trigger>документы</trigger>
+	<trigger>символ веры</trigger>
+	<trigger>герб</trigger>
+	<trigger>гимн</trigger>
+	<trigger>цветовая символика</trigger>
+	<trigger>традиционная одежда</trigger>
+	<trigger>диалект</trigger>
+</genus> 
+
+<might>
+	<name>БЕЗОПАСНОСТЬ</name>
+	<id>004</id>
+	<trigger>отсутствие страданий в отряде</trigger>
+	<trigger>запах еды</trigger>
+	<trigger>транспорт</trigger>
+	<trigger>лечение</trigger>
+	<trigger>помощь</trigger>
+	<trigger>воины в отряде</trigger>
+	<trigger>компромиссы</trigger>
+</might> 
+   
+<freedom>
+	<name>СВОБОДА</name>
+	<id>005</id>
+	<trigger>отсутствие рабов в отряде</trigger>
+	<trigger>животные в отряде</trigger>
+	<trigger>женщины в отряде</trigger>
+	<trigger>не рубка деревьев</trigger>
+	<trigger>отсутствие страданий в отряде</trigger>
+</freedom> 
+ 
+<mind>
+	<name>УМ</name>
+	<id>006</id>
+	<trigger>умный взгляд</trigger>
+	<trigger>очки</trigger>
+	<trigger>аугментации</trigger>
+	<trigger>светящиеся трубки</trigger>
+	<trigger>компьютер</trigger>
+	<trigger>диплом университета</trigger>
+</mind> 
+  
+<mystery>
+	<name>ТАИНСТВА</name>
+	<id>007</id>
+	<trigger>мистический взгляд</trigger>
+	<trigger>много цвета</trigger>
+	<trigger>напитан магией</trigger>
+	<trigger>амулеты</trigger>
+	<trigger>таинственные существа в отряде</trigger>
+</mystery> 
+	
+<desire>
+	<name>СТРАСТЬ</name>
+	<id>008</id>
+	<trigger>модная одежда</trigger>
+	<trigger>страдающие люди в отряде</trigger>
+	<trigger>юниты с фатальным отношением в отряде</trigger>
+	<trigger>красота</trigger>
+	<trigger>драгоценности</trigger>
+</desire> 
+
+<power>
+	<name>ВЛАСТЬ</name>
+	<id>009</id>
+	<trigger>волевой взгляд</trigger>
+	<trigger>страшная одежда</trigger>
+	<trigger>рабы в отряде</trigger>
+	<trigger>страдающие люди в отряде</trigger>
+	<trigger>орудия пыток</trigger>
+	<trigger>демонстративное насилие</trigger>
+</power> 
+
+</values>
